@@ -7,7 +7,7 @@ char checkVictory(char plateau[9], char signe);
 char computerPart(char plateau[9]);
 char userPart(char plateau[9]);
 
-int main(int argc, const char * argv[]) {
+int main() {
     bool isPlaying = true;
     int nbCoups = 0; // compte le nombre de coups
     char plateau[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
